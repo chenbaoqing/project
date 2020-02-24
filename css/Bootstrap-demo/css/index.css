@@ -1,0 +1,85 @@
+*{margin: 0;padding: 0;}
+.navbar-brand{
+    background: url('../images/logo0.png') no-repeat center;
+    background-size: 100%;
+    width:280px;
+    height:80px;
+}
+.container{
+    text-align: center;
+}
+@media(max-width:768px){
+    .container{
+        text-align: center;
+    }
+}
+html body .navbar{
+    padding:10px 0;
+}
+html body .navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+}
+html body .navbar-brand{
+    padding: 38px 15px;
+}
+h3{
+    text-align: center;
+}
+.content{text-align: center;}
+.icon img{
+    width: 30%;
+}
+.title{
+    color: #2dae36;
+    font-size: 24px;
+}
+.production{
+    height: 42px;
+    border-bottom: 1px solid #2dae36;
+    margin-top: 220px;
+    width:98%;
+    margin-left: 15px;
+}
+.show{
+    color: white;
+    background: #2dae36;
+    width:120px;
+    line-height: 42px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 20px;
+}
+
+.row{
+    text-align: center;
+}
+.production-list{
+    text-align: center;
+    margin-bottom: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.production-list img{
+    width:100%;
+    margin-bottom: 30px;
+}
+.nav-bottom img{
+    width: 100px;
+}
+.nav-bottom{
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.bottom-center div{
+    margin-top: 20px;
+    }
+html a{
+    text-decoration: none;
+    color: #666;
+}

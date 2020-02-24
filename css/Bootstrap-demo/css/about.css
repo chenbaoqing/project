@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;}
+.navbar-brand{
+    background: url('../images/logo0.png') no-repeat center;
+    background-size: 100%;
+    width:280px;
+    height:80px;
+}
+html body .navbar{
+    padding:10px 0;
+}
+html body .navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+}
+html body .navbar-brand{
+    padding: 38px 15px;
+}
+.photo img{
+    width: 100%;
+}
+.production{
+    height: 42px;
+    width: 80%;
+    border-bottom: 1px solid #2dae36;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.about-muxi{
+    text-align: center;
+    color: white;
+    background: #2dae36;
+    width:120px;
+    line-height: 42px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 20px;
+}
+.introduce p{
+    width: 80%;
+    margin-top: 20px;
+}
+.introduce img{
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom:50px;
+}
+.introduce div{
+    text-align: center;
+}
+.introduce span{color: #2dae36;}
+.introduce{overflow: hidden;}
+.footer {
+    padding-top: 24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+}
+.mx_width {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.mx_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer img{height: 80px;}
+html a{
+    color: #666;
+}
+html a:hover{
+    color:#2dae36;
+}
+.footer .changepage {
+    padding-top: 20px;
+}
+.contact{
+    text-align: center;
+}
+@media(max-width:992px){
+    .word{
+        margin-left: 90px;
+    }
+}

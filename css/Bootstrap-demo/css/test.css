@@ -1,0 +1,13 @@
+.navbar-brand{
+    background: url('../images/logo0.png') no-repeat center;
+    background-size: 100%;
+    width:280px;
+    height:80px;
+}
+html body .navbar{
+    padding:10px 0;
+}
+html body .navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+}

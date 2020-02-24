@@ -1,0 +1,343 @@
+*{
+    margin: 0;padding: 0;
+}
+a{
+text-decoration: none;
+}
+html .container{
+    width: 1230px;
+    margin-left: auto;margin-right: auto;
+    position: relative;
+    padding: 0;
+}
+.top{
+    height: 40px;
+    background: #333333;
+}
+.top span{
+    color: #393939;
+}
+.top a{
+    color: #ADADAD;
+    font-size:12px; 
+    line-height: 40px;
+    
+}
+.top a:hover{
+    color: white;
+}
+.top-right{
+    width:270px;
+    position: absolute;
+    right: 0;top:0;
+}
+.car{ 
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+.nav{
+    margin-top: 25px;
+    position: relative;
+}
+.img{
+    background: #FF6700  url(../images/mi-logo.png) no-repeat 50% 50%;
+    width: 55px;height: 55px;
+    float: left;
+    margin-right: 65px;
+}
+.nav span{
+    line-height: 55px;
+    margin-right: 18px;
+    font-size: 16px;
+}
+.nav-right{
+    float: left;
+    position: absolute;
+    right: 0;top: 0;
+    width: 300px;
+    height: 55px;
+    border: 1px solid #E0E0E0;
+}
+.nav input{
+    height: 50px;
+    width: 245px;
+    border: none;
+}
+.nav button{
+    height: 52px;
+    width: 52px;
+    background: #fff;
+    border: none;
+    margin-left: -3px;
+    border-left: 1px solid #E0E0E0;
+}
+.iconfont{color:#616161;}
+.content{
+    background: #F5F5F5;
+    width: 100%;
+    margin-top: 25px;
+}
+.content span{
+    color: #878787;
+    font-size: 12px;
+}
+.content a{
+    color:#666666;
+    font-size: 12px;
+    line-height: 40px;
+}
+.item img{
+    width: 1230px;
+}
+.content h2{
+    text-align: center;
+    color: #666666;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.self-service{
+    display: flex;
+    width: 1230px;
+    height: 580px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.box{
+    width:290px;
+    height: 277px;
+    background: #fff;
+    text-align: center;
+}
+.box:hover{
+    color: #FF6600;
+    animation:animated;
+}
+.box h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box p{
+    color: #878787;
+}
+.box img{
+    margin-top: 80px;
+}
+.service div{
+    float: left;
+}
+.service{
+    overflow: hidden;
+    margin-left: 105px;
+}
+.service img{
+    width: 610px;
+    height: 360px;
+}
+.service-right{
+    text-align: center;
+    background: #fff;
+    height: 360px;
+    width: 610px;
+}
+.service-right p{
+    font-size: 20px;
+    margin-top: 64px;
+    margin-bottom: 15px;
+}
+.service-right span{
+    font-size: 16px;
+    color: #666666;
+    display: inline-block;
+    width: 610px;
+}
+.service-right img{
+    width: 36px;
+    height: 36px;
+}
+dl{
+    display: inline-block;
+    color:#757575
+}
+dd{
+    display: inline-block;
+    width: 100px;
+}
+dd img{
+    margin-left: 32px;
+    margin-top: 40px;
+}
+.service-right a{
+    display: inline-block;
+    width: 610px;
+    font-size: 16px;
+    color: #B3B3B3;
+    margin-top: 20px;
+}
+.service-right a:hover{
+    color: #FF6700;
+}
+.problem{
+    width: 650px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.problem input{
+    width: 600px;
+    height: 50px;
+    border: none;
+}
+.problem button{
+    border:none;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+}
+.more{
+    margin-top: 50px;
+}
+.list li{
+    float: left;
+    width: 175px;
+    height: 67px;
+    text-align: center;
+    background: #fff;
+    line-height: 67px;
+    font-size: 18px;
+    list-style: none;
+}
+.list li:hover{
+    background: #FF6600;
+    color: #fff;
+}
+.active{
+    overflow: hidden;
+    width: 1225px;
+    height:195px;
+    background: #fff;
+    border-top: 1px solid #F5F5F5;
+    margin-bottom: 120px;
+}
+.active ul{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.active li{
+    width: 540px;
+    height: 40px;
+    margin-left: 72px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.active a{
+    display: inline-block;
+    width: 1225px;
+    text-align: center;
+    font-size: 16px;
+}
+.footer{
+    background: #fff;
+    width: 100%;
+    height: 272px;
+}
+.footer a{
+    display: inline-block;
+    width: 242px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border-left: 1px solid #E0E0E0;
+}
+.footer a:nth-child(1){border-left: none;}
+.footer .iconfont{
+    font-size: 25px;
+    margin-right: 5px;
+}
+button>.iconfont{
+    font-size: 20px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: #E0E0E0;
+    margin-bottom: 40px;
+}
+.footer-left{width: 980px;float: left;}
+.footer-left dl{
+    width: 160px;
+    height: 112px;
+}
+.footer-left dd{
+    margin-top: 10px;
+    color: #757575;
+    font-size: 12px;
+}
+.footer-left dt{margin-bottom: 15px;}
+.footer-right{
+    width:250px ;
+    height: 112px;
+    border-left: 1px solid #E0E0E0;
+    float: left;
+    text-align: center;
+}
+.footer-right .big{
+    font-size: 22px;
+    color: #FF6600;
+    line-height: 25px;
+}
+.footer-right p{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom:  5px;
+}
+.footer-right a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    color: #FF6600;
+    border: 1px solid #FF6600;
+    margin-top: 10px;
+}
+.footer-right .iconfont{
+    color: #FF6600;
+    font-size: 12px;
+}
+.nav-bottom{
+    margin-top: 30px;
+}
+.bottom-left{
+    float: left;
+}
+.bottom-right{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.bottom-right p{
+    color: #ADADAD;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.bottom-right a{
+    line-height: 15px;
+}
+.change{
+    width: 83px;
+}
+.slogan{
+    width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}

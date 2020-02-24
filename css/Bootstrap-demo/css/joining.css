@@ -1,0 +1,140 @@
+*{margin: 0;padding: 0;}
+.navbar-brand{
+    background: url('../images/logo0.png') no-repeat center;
+    background-size: 100%;
+    width:280px;
+    height:80px;
+}
+html body .navbar{
+    padding:10px 0;
+}
+html body .navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+}
+html body .navbar-brand{
+    padding: 38px 15px;
+}
+.photo img{
+    width: 100%;
+}
+.photo img{
+    width: 100%;
+}
+.production{
+    height: 42px;
+    width: 80%;
+    border-bottom: 1px solid #2dae36;
+    margin-top: 20px;
+}
+.join{
+    text-align: center;
+    color: white;
+    background: #2dae36;
+    width:120px;
+    line-height: 42px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 20px;
+}
+.conditions div{
+    float: left;
+}
+.conditions{overflow: hidden;}
+.conditions img{
+    margin-top: 60px;
+}
+.big{
+    font-size: 30px;
+    margin-top: 75px;
+}
+.conditions-left p:nth-child(2){
+    font-size: 18px;
+    color: #2dae36;
+}
+.conditions p:nth-child(1){
+    margin-top: 60px;
+}
+.process div{
+    float: left;
+    margin-bottom: 60px;
+}
+.process{overflow: hidden;}
+.process img{
+    margin-top: 60px;
+}
+.big{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.process-left p:nth-child(2){
+    font-size: 18px;
+    color: #2dae36;
+}
+.process p:nth-child(1){
+    margin-top: 60px;
+}
+.policy div{
+    float: left;
+    margin-bottom: 60px;
+}
+.policy img{
+    margin-top: 60px;
+}
+.big{
+    font-size: 30px;
+    margin-top: 75px;
+}
+.row{
+    font-size: 18px;
+    color: #2dae36;
+}
+.policy p:nth-child(1){
+    margin-top: 60px;
+}
+.policy-left .row{margin-left: 0px;}
+.process .row{margin-left: 0px;}
+.line{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dotted #2dae36;
+}
+@media(max-width:768px){
+    
+}
+.nav-bottom img{
+    width: 100px;
+}
+.nav-bottom{
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.bottom-center div{
+margin-top: 20px;
+}
+html a{
+    text-decoration: none;
+    color: #666;
+}
+@media(max-width:992px){
+    .conditions img{
+        margin: 0;padding: 0;
+    }
+    .conditions p{
+        margin: 0;padding: 0;
+    }
+    .process div{
+        margin-bottom:0px;
+    }
+    .policy div{
+        margin-bottom: 0px;
+    }
+}
+
+
+

@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;}
+.top{
+    background: #333;
+    height: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+.container{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.top a{
+    color: #fff;
+    line-height: 40px;
+}
+.top-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.nav{overflow: hidden;}
+.nav img{
+    margin-top: 25px;
+    float: left;
+}
+.nav ul{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.nav li{
+    float: left;
+    width: 85px;
+    height: 44px;
+    font-size: 18px;
+    text-align: right;
+}
+li {
+    list-style: none;
+}
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    height: 645px;
+    background: url('../images/index_banner-744e8a4eb7.jpg')  no-repeat center;
+    text-align: center;
+}
+.banner h2{
+    font-size: 52px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 193px;
+}
+a{
+    text-decoration: none;
+}
+.banner a{
+    display: inline-block;
+    width:260px ;
+    height: 60px;
+    background: #F93F2B;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.content{
+    height: 450px;
+    border: 1px solid #ededed;
+    background: #FFFFFF;
+    margin-top: 215px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service{
+    width: 360px;
+    height: 180px;
+    margin-top: 30px;
+}
+.service:nth-child(1){
+    background: url('../images/index_lc-4d441bbd19.png') no-repeat center;
+}
+.service:nth-child(2){
+    background: url('../images/index_dk-30bb01dd27.png') no-repeat center;
+}
+.service:nth-child(3){
+    background: url('../images/index_bx-77769fa5cb.png') no-repeat center;
+}
+.content p{
+    font-size: 33px;
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+}
+.service p:nth-child(1){
+    margin-top: 48px;
+}
+.list{
+    text-align: left;
+    width: 305px;
+    height: 140px;
+    margin-top: -20px;
+    border-bottom: 1px solid #ededed;
+}
+.list p{
+    color: #616161;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-left: 0;
+}
+.list span{
+    margin-right: 5px;
+}
+.wealth span{
+    color: #F93F2B;
+}
+.loans span{
+    color: #4582CA;
+}
+.insurance span{
+    color: #4AB591;
+}
+.more{
+    width: 100%;
+    padding-top: 0;
+}
+.content ul{
+    width: 1230px;
+}
+.content li{
+    float: left;
+    color: #F93F2B;
+    margin-left: 160px;
+    margin-right: 140px;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    margin-top: 470px;
+    font-size: 12px;
+    color: #666666;
+}
+.footer img{
+    margin-top: 20px;
+    float: left;
+}
+.footer-left a{
+    font-size: 14px;
+    color: #616161;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footer-left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.footer-right{
+    position: absolute;
+    right: 0;
+}
+.footer-right p:nth-child(2){
+    font-size: 26px;
+    color: #F93F2B;
+}
+
