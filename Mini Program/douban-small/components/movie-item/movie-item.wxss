@@ -1,0 +1,22 @@
+.img{
+    width: 200rpx;
+    height: 250rpx;
+}
+.star{
+    width: 30rpx;
+    height: 30rpx;
+}
+.item{
+    width: 200rpx;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 30rpx;
+}
+.rating{
+    font-size: 24rpx;
+    color: #c20c0c;
+    font-weight: bold;
+    margin-left: 20rpx;
+}

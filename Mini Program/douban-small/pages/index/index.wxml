@@ -1,0 +1,5 @@
+<view class="container">
+    <image class="logo" src="/images/avatar/1.png"></image>
+    <view><text>hello 小程序</text></view>
+    <view class="btn" bind:tap="handleToggle">开启我的小程序</view>
+</view>

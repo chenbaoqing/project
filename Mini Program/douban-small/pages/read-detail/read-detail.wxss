@@ -1,0 +1,53 @@
+.music{
+    width: 80rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 200rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.collect-share image{
+    width: 80rpx;
+    height: 80rpx;
+}
+.bg{
+    height: 500rpx;
+}
+.detail image{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+}
+.collection{
+    position: absolute;
+    right: 110rpx;
+}
+.share{
+    position: absolute;
+    right: 30rpx;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 20rpx;
+    height: 100rpx;
+}
+.title{
+    font-weight: bold;
+    margin-left: 20rpx;
+}
+.content{
+    padding: 20rpx;
+    color: #666;
+    font-size: 14px;
+}
+.collect-share{
+    height: 100rpx;
+    position: relative;
+}
+.line{
+    height: 1rpx;
+    background: #dfdfdf;
+    margin-top: 20rpx;
+}

@@ -1,0 +1,34 @@
+.img{
+    width: 220rpx;
+    height: 220rpx;
+}
+.item{
+    width: 220rpx;
+    font-size: 10px;
+    margin-top: 30rpx;
+    position: relative;
+}
+.container{
+    width: 700rpx;
+    margin-left: 25rpx;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: 30rpx;
+    width: 700rpx;
+    margin-left: 25rpx;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon image{
+    width: 35rpx;
+    height: 35rpx;
+}
+.icon{
+    position: absolute;
+    top: 0;right: 0;
+    color: #ebebeb;
+}

@@ -1,0 +1,38 @@
+<view class="head">
+    <image class="bg" src="{{movie.images.small}}"></image>
+    <image class="picUrl" bind:tap="{{handleImage}}" data-url="{{movie.images.small}}" src="{{movie.images.small}}"></image>
+    <view class="blur"></view>
+    <view class="fix">
+        <view><h2>{{movie.title}}</h2></view>
+        <view class="time"><text>{{movie.pubdates}}</text></view>
+        <view class="like">
+            <text class="red">{{movie.wish_count}}</text>
+            <text class="gray">人喜欢</text>
+            <text class="red">{{movie.comments_count}}</text>
+            <text class="gray">条评论</text>
+        </view>
+    </view>
+</view>
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="content">
+    <view><h3>{{movie.original_title}}</h3></view>
+    <view>
+        <text class="cast">评分</text>
+        <image wx:for="{{tools.formatStar(movie.rating.stars)}}" wx:key="{{index}}" class="star"
+        src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}"></image><text>{{movie.rating.average}}</text>
+    </view>
+    <view><text class="cast">导演</text><text class="gray" wx:for="{{movie.directors}}" wx:key="{{item.name}}">{{item.name}}</text></view>
+    <view><text class="cast">影人</text><text class="gray" wx:for="{{movie.casts}}" wx:key="{{item.name}}">{{item.name}}</text></view>
+    <view><text class="cast">类型</text><text class="gray">{{movie.genres}}</text></view>
+</view>
+<view class="info">
+    <view>剧情简介</view>
+    <view class="summary">{{movie.summary}}</view>
+</view>
+<view class="line"></view>
+<scroll-view class="scroll" scroll-x="true">
+    <view class="casts" wx:for="{{movie.casts}}" wx:key>
+        <view><image src="{{item.avatars.small}}" bind:tap="handleImage" data-url="{{item.avatars.small}}" class="item"></image></view>
+        <view><text>{{item.name}}</text></view>
+    </view>
+</scroll-view>

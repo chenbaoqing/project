@@ -1,0 +1,3 @@
+<view class="flex-grid">
+    <v-item wx:for="{{movies}}" data="{{item}}" wx:key="{{item}}"></v-item>
+</view>

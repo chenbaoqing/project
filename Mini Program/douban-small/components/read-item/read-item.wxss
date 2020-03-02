@@ -1,0 +1,48 @@
+page{
+    background: #eee;
+}
+.head image{
+    width: 80rpx;
+    height: 80rpx;
+}
+.head{
+    color: #aaa;
+    font-size: 30rpx;
+    margin-bottom: 20rpx;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+}
+.head text{
+    margin-left: 20rpx;
+}
+.bg{
+    width: 700rpx;
+    padding: 20rpx 0;
+}
+.icon{
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+}
+.item{
+    padding: 25rpx;
+    background: #fff;
+    margin-top: 45rpx;
+}
+.title{
+    font-weight: bold;
+}
+.content{
+    color: #666;
+    font-size: 14px;
+}
+.end{
+    display: flex;
+    font-size: 28rpx;
+    color: #999;
+    margin-top: 15rpx;
+}
+.end text{
+    margin-right: 10rpx;
+}

@@ -1,0 +1,8 @@
+.title{
+    width: 700rpx;
+    display: flex;
+    margin-left: 25rpx;
+    justify-content: space-between;
+    margin-top: 30rpx;
+    font-size: 35rpx;
+}

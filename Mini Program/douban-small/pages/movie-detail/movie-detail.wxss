@@ -1,0 +1,114 @@
+.scroll{
+    white-space: nowrap;
+    margin-top: 50rpx;
+}
+.scroll view{
+    display: inline-flex;
+}
+.scroll image{
+    width: 200rpx;
+    height: 270rpx;
+}
+.bg{
+    width: 100%;
+    height: 350rpx;
+}
+.head{
+    position: relative;
+}
+.head .blur{
+    position: absolute;
+    width: 100%;
+    height: 350rpx;
+    background:rgba(51, 51, 51, .3) ;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+.picUrl{
+    width: 220rpx;
+    height: 280rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 165rpx;
+    z-index: 101;
+}
+.fix{
+    position: absolute;
+    left: 50rpx;
+    top: 65rpx;
+    z-index: 101
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+}
+.time{
+    color: #fff;
+    margin-top: 25rpx;
+    font-size: 15px;
+}
+.like{
+    font-size: 12px;
+    margin-top: 60rpx;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: #666666;
+}
+.like text{
+    padding-left: 15rpx;
+}
+.cast{
+    color: #aaa;
+}
+.content{
+    font-size: 12px;
+    margin-left: 50rpx;
+    margin-top: 50rpx;
+}
+.content>view{
+    margin-top: 20rpx;
+}
+.content text{
+    padding-right: 30rpx;
+}
+h3{
+    font-weight: bold;
+    color: #666;
+}
+.star{
+    width: 35rpx;
+    height: 35rpx;
+}
+.line{
+    width: 750rpx;
+    height: 1px;
+    background: #ccc;
+    margin-top: 60rpx;
+}
+.center{
+    font-size: 12px;
+    margin-left: 50rpx;
+    width: 650rpx;
+}
+.center>view{
+    margin-top: 50rpx;
+}
+.line-height{
+    line-height: 30px;
+}
+.info{
+    padding: 40rpx;
+    border-bottom: 1px solid rgb(197,196,196);
+}
+.info view:first-child{
+    color:#A9A9A9;
+    margin-bottom: 30rpx;
+}
+.summary{
+    font-size: 14px;
+    color:#878787;
+}
